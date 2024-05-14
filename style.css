@@ -10,5 +10,6 @@ h1 {
   margin: auto;
   padding: 5px;
   border: 2px solid hotpink;
+  border-radius: 8px;
   width: 10pc;
 }
