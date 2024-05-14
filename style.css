@@ -9,6 +9,5 @@ h1 {
 div.title{
   padding: 11px;
   margin: auto;
-  border-width: 2px;
-  border-color: hotpink;
+  border: 2px solid hotpink;
 }
