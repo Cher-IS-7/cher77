@@ -5,3 +5,8 @@ body {
 h1 {
   color: white;
 }
+
+div.title{
+  padding-left: 5pc;
+  padding-right: 5pc;
+}
