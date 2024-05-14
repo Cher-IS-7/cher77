@@ -7,6 +7,7 @@ h1 {
 }
 
 div.title{
-  padding-left: 11pc;
+  padding: 11px;
   margin: auto;
+  border-color: hotpink;
 }
