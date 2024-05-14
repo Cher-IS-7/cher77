@@ -10,6 +10,7 @@ h1 {
 
 div.title{
   margin: auto;
+  padding: 5px;
   border: 2px solid hotpink;
-  width: 5pc;
+  width: 10pc;
 }
