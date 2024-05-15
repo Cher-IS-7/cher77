@@ -15,7 +15,7 @@ body {
 .main{
   margin: auto;
   padding 5px
-  border: 2px solid hotpink;
-  width: 25pc;
+  border: 2px solid red;
+  width: 125px;
   color: red;
 }
