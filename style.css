@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+.top{
+  background-color: yellow;
+}
+
 .title{
   margin: auto;
   padding: 5px;
@@ -14,6 +18,7 @@ body {
 
 .main{
   border: 5px solid red;
-  width: 125px;
+  width: 25pc;
   color: red;
+  margin: auto;
 }
