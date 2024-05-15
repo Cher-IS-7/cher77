@@ -14,7 +14,9 @@ body {
 
 .main{
   margin: auto;
-  padding 20px
+  padding 5px
   border: 2px solid hotpink;
+  width: 25pc;
   color: red;
+  font-palette: 25px;
 }
