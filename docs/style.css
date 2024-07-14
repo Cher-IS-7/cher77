@@ -152,8 +152,9 @@ a {
 .link {
     text-decoration: underline;
     color: blue;
-    font-weight: ittalic;
+    font-weight: italic;
 }
+
 
 @media screen and (max-width: 1300px) {
     .photos {
