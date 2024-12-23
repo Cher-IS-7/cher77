@@ -1,12 +1,30 @@
-
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>Most Handsome person ever!!!</title>
-    </head>
-    <body>
-        <script src="handsome.js"></script>
-        <video id="you" autoplay></video>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Camera</title>
+</head>
+<body>
+    <h1>Camera Access Example</h1>
+    <video id="video" width="640" height="480" autoplay></video>
+    <script>
+        // Check if the browser supports getUserMedia
+        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+            // Request access to the camera
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(function(stream) {
+                    // Get the video element
+                    const video = document.getElementById('video');
+                    // Set the video source to the stream
+                    video.srcObject = stream;
+                })
+                .catch(function(error) {
+                    console.error("Error accessing the camera: ", error);
+                });
+        } else {
+            console.error("getUserMedia is not supported in this browser.");
+        }
+    </script>
+</body>
 </html>
